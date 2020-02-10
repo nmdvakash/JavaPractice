@@ -1,0 +1,16 @@
+
+?squid:S2129"!Remove this "Integer" constructor(Ğï´Û8ØòÊ‚.
+Nsquid:S1481"0Remove this unused "constructor" local variable.(Ğï´Û8ï§ñÊ‚.
+]squid:S1854"@Remove this useless assignment to local variable "constructor1".(Šåø8 èøÊ‚.
+>squid:S2326"T is not used in the class.(²áÅôøÿÿÿÿ8½ûûÊ‚.
+]squid:S1854"?Remove this useless assignment to local variable "constructor".(Ğï´Û8šÄğÊ‚.
+>squid:S2129"!Remove this "Integer" constructor(Šåø8 èøÊ‚.
+^squid:CallToDeprecatedMethod"/Remove this use of "Integer"; it is deprecated.(Ğï´Û8ØòÊ‚.
+jsquid:UselessImportCheck"?Remove this unused import 'java.lang.reflect.GenericArrayType'.(ºÃ›8šÄğÊ‚.
+]squid:CallToDeprecatedMethod"/Remove this use of "Integer"; it is deprecated.(Šåø8 èøÊ‚.
+Nsquid:S1481"1Remove this unused "constructor1" local variable.(Šåø8 èøÊ‚.
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ë—¿·ûÿÿÿÿ8ÌïêÊ‚.
+V
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(—™Ò™8èŒË‚.

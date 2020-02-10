@@ -1,0 +1,9 @@
+
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(÷ø³Ë8¹ù“Œ.
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(èŒ—Û8³ÄƒŒ.
+]squid:S1854":Remove this useless assignment to local variable "stream".(šø…ªûÿÿÿÿ8ì••Œ.
+_squid:UselessImportCheck"4Remove this unused import 'org.w3c.dom.ls.LSOutput'.(Ò½¾Š8¤Äú‹.
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‹â²ùÿÿÿÿ8ì••Œ.
+Nsquid:S1481"+Remove this unused "stream" local variable.(šø…ªûÿÿÿÿ8ì••Œ.

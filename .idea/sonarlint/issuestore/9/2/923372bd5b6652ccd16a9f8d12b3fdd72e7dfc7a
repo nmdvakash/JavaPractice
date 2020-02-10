@@ -1,0 +1,19 @@
+
+g"squid:ObjectFinalizeOverridenCheck"-Do not override the Object.finalize() method.(ÖÒ˜Ùùÿÿÿÿ8¾É­Ë‚.
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÑÆœö8„ÅªË‚.
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ó¹œÛ8”˜Ë‚.
+~squid:CallToDeprecatedMethod"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ÖÒ˜Ùùÿÿÿÿ8¾É­Ë‚.
+rsquid:S1215 "TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8š¬±Ë‚.
+jsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(¯åÕøÿÿÿÿ8Ö—›Ë‚.
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¡ÒÊ©8ÙµºË‚.
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(¤©ùš8©¸®Ë‚.
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(Í‹øÌ8„ÅªË‚.
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Æì° úÿÿÿÿ8„ÅªË‚.
+dsquid:CallToDeprecatedMethod"0Remove this use of "finalize"; it is deprecated.(¯¶ú“üÿÿÿÿ8¾É­Ë‚.
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(´äÙîÿÿÿÿÿ8„ÅªË‚.
