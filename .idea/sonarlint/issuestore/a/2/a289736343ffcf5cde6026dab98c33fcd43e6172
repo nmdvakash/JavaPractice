@@ -1,25 +1,0 @@
-
-]squid:S1854":Remove this useless assignment to local variable "gListB".(ÄºÑÙúÿÿÿÿ8®î»ˆ‚.
-Dsquid:S2129!"!Remove this "Integer" constructor(×µƒÇýÿÿÿÿ8‡ù¿ˆ‚.
-Fsquid:S1481"(Remove this unused "num" local variable.(âµ½ò8ÊÊ¿ˆ‚.
-Xsquid:S1854":Remove this useless assignment to local variable "gListB".(ë ùå8ÎÙ¹ˆ‚.
-Zsquid:S1854"7Remove this useless assignment to local variable "obj".(ÒÞ‹Àþÿÿÿÿ8£ÅÅˆ‚.
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(À¬ÁÌ8¢¥½ˆ‚.
-Usquid:S1854"7Remove this useless assignment to local variable "num".(âµ½ò8—×Ìˆ‚.
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(É¢¯¸8þ¥Æˆ‚.
-asquid:S1854">Remove this useless assignment to local variable "numberList".(ûÕð°ùÿÿÿÿ8·°³ˆ‚.
-Rsquid:S1481"/Remove this unused "numberList" local variable.(ûÕð°ùÿÿÿÿ8·°³ˆ‚.
-Isquid:S1481"+Remove this unused "gListB" local variable.(ë ùå8ö½ºˆ‚.
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÞÝ²«8±É«ˆ‚.
-[squid:S1854
-"8Remove this useless assignment to local variable "list".(¤Êí…ýÿÿÿÿ8±É«ˆ‚.
-csquid:CallToDeprecatedMethod!"/Remove this use of "Integer"; it is deprecated.(×µƒÇýÿÿÿÿ8‡ù¿ˆ‚.
-Ksquid:S1481"(Remove this unused "obj" local variable.(ÒÞ‹Àþÿÿÿÿ8£ÅÅˆ‚.
-?squid:S2129"!Remove this "Integer" constructor(âµ½ò8—×Ìˆ‚.
-[squid:S1854!"8Remove this useless assignment to local variable "num1".(×µƒÇýÿÿÿÿ8ÊÊ¿ˆ‚.
-Csquid:S2129" Remove this "String" constructor(ÒÞ‹Àþÿÿÿÿ8£ÅÅˆ‚.
-asquid:S1854">Remove this useless assignment to local variable "numberList".(©þõ±üÿÿÿÿ8‰Ðµˆ‚.
-^squid:CallToDeprecatedMethod"/Remove this use of "Integer"; it is deprecated.(âµ½ò8—×Ìˆ‚.
-Lsquid:S1481
-")Remove this unused "list" local variable.(¤Êí…ýÿÿÿÿ8±É«ˆ‚.
-Lsquid:S1481!")Remove this unused "num1" local variable.(×µƒÇýÿÿÿÿ8—×Ìˆ‚.

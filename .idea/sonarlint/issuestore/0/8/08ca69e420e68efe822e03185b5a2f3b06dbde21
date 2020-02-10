@@ -1,24 +1,0 @@
-
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(„°òıÿÿÿÿ8–ƒ®‚.
-Zsquid:S1854:"7Remove this useless assignment to local variable "str".(•­§¥ûÿÿÿÿ8Ãë¬®‚.
-Bsquid:S19057"$Remove this unnecessary cast to "A".(ÖÏïü8‰òö­‚.
-csquid:S2259>"@A "NullPointerException" could be thrown; "c1" is nullable here.(¸òÊûÿÿÿÿ8¶á±®‚.
-[
-squid:S106!"9Replace this use of System.out or System.err by a logger.(×ôêşùÿÿÿÿ8Óô®®‚.
-[
-squid:S106*"9Replace this use of System.out or System.err by a logger.(¬Ò¤Âøÿÿÿÿ8³êå­‚.
-Xsquid:S2209>"5Change this instance-reference to a static reference.(¸òÊûÿÿÿÿ8¶á±®‚.
-Xsquid:S1161":Add the "@Override" annotation above this method signature(İü²ó8–ƒ®‚.
-U
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÜÄ™g8‡øƒ®‚.
-[
-squid:S106/"9Replace this use of System.out or System.err by a logger.(ÍŠìÂûÿÿÿÿ8”¼ì­‚.
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ô·ê8éÃâ­‚.
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(‘Ô¶Œúÿÿÿÿ8éÃâ­‚.
-Ksquid:S1481:"(Remove this unused "str" local variable.(•­§¥ûÿÿÿÿ8Ãë¬®‚.
-nsquid:CommentedOutCodeLine."<This block of commented-out lines of code should be removed.(ßÎüıÿÿÿÿ8¯Áğ­‚.
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(¼´®şÿÿÿÿ8éÃâ­‚.

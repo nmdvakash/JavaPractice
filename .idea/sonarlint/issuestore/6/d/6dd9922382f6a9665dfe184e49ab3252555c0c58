@@ -1,12 +1,0 @@
-
-lsquid:S001004"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ßìA8·êÙ.
-Rsquid:EmptyStatementUsageCheck7"Remove this empty statement.(Åñ­õşÿÿÿÿ8·êÙ.
-esquid:S00112""FDefine and throw a dedicated exception instead of using a generic one.(Áµ¼«8ßû¶Ù.
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(´ŠËóøÿÿÿÿ8Ğ›¦Ú.
-ssquid:UnusedPrivateMethod"BRemove this unused private "countMoveToEqualArrayElements" method.(ÖÅ××úÿÿÿÿ8úêÙ.
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÄûíÓ8¼¨ë„‚.
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ü‰²Š8úêÙ.
-Fsquid:S1172E"(Remove this unused method parameter "n".(¢Û›8½¹¥Ú.
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÑÕøÿÿÿÿ8ÆÒïÙ.
-isquid:CommentedOutCodeLine	"<This block of commented-out lines of code should be removed.(Úèœ8Û™‡‚.

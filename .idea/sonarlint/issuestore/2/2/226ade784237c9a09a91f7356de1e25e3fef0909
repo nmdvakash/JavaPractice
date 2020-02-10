@@ -1,34 +1,0 @@
-
-[
-squid:S106("9Replace this use of System.out or System.err by a logger.(æÀš”ûÿÿÿÿ8ÿÈ¾à€.
-Dsquid:S38640"!Remove this use of "Stream.peek".(©ºëÌùÿÿÿÿ8µø¯‹.
-V
-squid:S106%"9Replace this use of System.out or System.err by a logger.(“¦úï8Ñ‰±à€.
-V
-squid:S106/"9Replace this use of System.out or System.err by a logger.(Â…ê„8ƒŠşŠ.
-dsquid:UselessImportCheck"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8Œ¾Œ‹.
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(º±€®şÿÿÿÿ8‰èã‹.
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÂÎœªşÿÿÿÿ8è‘”‹.
-[
-squid:S106&"9Replace this use of System.out or System.err by a logger.(…ğù ıÿÿÿÿ8Óª‰‹.
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(ç„üÄ8–Í‹.
-U
-squid:S106)"9Replace this use of System.out or System.err by a logger.(Ø“€F8Óª‰‹.
-V
-squid:S106-"9Replace this use of System.out or System.err by a logger.(ÔÍä8Óª‰‹.
-U
-squid:S106"9Replace this use of System.out or System.err by a logger.(¹ÿÖc8»ğ–‹.
-[
-squid:S1060"9Replace this use of System.out or System.err by a logger.(©ºëÌùÿÿÿÿ8Óª‰‹.
-V
-squid:S106#"9Replace this use of System.out or System.err by a logger.(óÈÎì8Óª‰‹.
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(¢´”»ùÿÿÿÿ8Óª‰‹.
-U
-squid:S106+"9Replace this use of System.out or System.err by a logger.(„ÓãH8Óª‰‹.
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(…ÜÎ§ûÿÿÿÿ8İ‡¤‹.
-Zsquid:S3655"7Call "Optional#isPresent()" before accessing the value.(›»›­şÿÿÿÿ8–Í‹.

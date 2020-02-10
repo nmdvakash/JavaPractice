@@ -1,30 +1,0 @@
-
-asquid:S3252">Use static access with "java.lang.Thread" for "currentThread".(õ»Ğüÿÿÿÿ8î—°‚.
-isquid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(Ç‚¸¶8«¬ÃÊ‚.
-Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8µ’°‚.
-Xsquid:S2209"5Change this instance-reference to a static reference.(Ä÷¿úÿÿÿÿ8î—°‚.
-asquid:S3252">Use static access with "java.lang.Thread" for "currentThread".(Ä÷¿úÿÿÿÿ8î—°‚.
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ä÷¿úÿÿÿÿ8î—°‚.
-Esquid:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8ùó…°‚.
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(õ»Ğüÿÿÿÿ8î—°‚.
-Osquid:S1612,",Replace this lambda with a method reference.(¤à›¼üÿÿÿÿ8¦õ°‚.
-dsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8“Ğ‡°‚.
-asquid:S3252	">Use static access with "java.lang.Thread" for "currentThread".(õ»Ğüÿÿÿÿ8¶Ë–°‚.
-Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8“Ğ‡°‚.
-Xsquid:S2209	"5Change this instance-reference to a static reference.(õ»Ğüÿÿÿÿ8¶Ë–°‚.
-Xsquid:S2209"5Change this instance-reference to a static reference.(õ»Ğüÿÿÿÿ8î—°‚.
-dsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8µ’°‚.
-[
-squid:S106	"9Replace this use of System.out or System.err by a logger.(õ»Ğüÿÿÿÿ8µ¾•°‚.
-Esquid:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8Šöí¯‚.
-[squid:S3252">Use static access with "java.lang.Thread" for "currentThread".(İãôR8€¥˜°‚.
-U
-squid:S106"9Replace this use of System.out or System.err by a logger.(İãôR8€¥˜°‚.
-csquid:S2134"@Don't extend "Thread", since the "run" method is not overridden.(îìœ€øÿÿÿÿ8½éŠ°‚.
-fsquid:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(ëÖƒ›ıÿÿÿÿ8Şı§°‚.
-Rsquid:S2209"5Change this instance-reference to a static reference.(İãôR8€¥˜°‚.
-Jsquid:S1612-",Replace this lambda with a method reference.(ÀÅ£‡8«’ÇÊ‚.
-^squid:S1854'"@Remove this useless assignment to local variable "waitVsSleep1".(ì¼¶ß8ñïØÊ‚.
-Osquid:S1481'"1Remove this unused "waitVsSleep1" local variable.(ì¼¶ß8ñïØÊ‚.
