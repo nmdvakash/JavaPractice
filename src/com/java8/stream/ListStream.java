@@ -16,8 +16,8 @@ public class ListStream {
         List<Integer> numberList = IntStream.range(min, max).boxed().collect(Collectors.toList());
         numberList.stream().forEach(System.out::println);
 
-        int sum = IntStream.rangeClosed(1,100).sum();
-        System.out.println("value ---------- :: "+sum);
+        int sum = IntStream.rangeClosed(1, 100).sum();
+        System.out.println("value ---------- :: " + sum);
         System.out.println("----------------- X -----------------");
 
         List<Integer> numberList2 = IntStream.rangeClosed(min, max).boxed().collect(Collectors.toList());
@@ -27,7 +27,6 @@ public class ListStream {
         System.out.println(" sum of reduce ------ :: " + sum1);
 
         numberList.parallelStream().reduce(Integer::max).stream().forEach(System.out::println);
-
 
 
         List<Integer> list = Arrays.asList(2, 3, 43, 2, 4, 5, 63, 2, 4, 6);
