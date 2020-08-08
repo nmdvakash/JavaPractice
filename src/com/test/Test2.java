@@ -6,19 +6,17 @@ import java.util.Random;
 
 public class Test2 {
 
-//    synchronized  tp(){}
+    //    synchronized  tp(){}
     public static void main(String[] args) {
 
+        Random test = new Random();
 
-        Random test  = new Random();
+        test.ints(1, 20).distinct().limit(15).sorted().forEach(System.out::println);
 
-        test.ints(1,20).distinct().limit(15).sorted().forEach(System.out::println);
-
-//        List<Integer> arr1 = Arrays.asList(123, 543);
-//        List<Integer> arr2 = Arrays.asList(321, 279);
-
-//       int count =  countMoveToEqualArrayElements(arr1.stream().mapToInt(Integer::intValue).toArray(), arr2.stream().mapToInt(Integer::intValue).toArray());
-//        System.out.println("value ------ :: "+count);
+        List<Integer> arr1 = Arrays.asList(123, 543);
+        List<Integer> arr2 = Arrays.asList(321, 279);
+        int count = countMoveToEqualArrayElements(arr1.stream().mapToInt(Integer::intValue).toArray(), arr2.stream().mapToInt(Integer::intValue).toArray());
+        System.out.println("value ------ :: " + count);
 
 //        List<Integer> arr1 = Arrays.asList(1, 2, 3,3);
 //        int value = BalanceBest(arr1.stream().mapToInt(Integer::intValue).toArray());
@@ -52,7 +50,6 @@ public class Test2 {
     public static int BalanceBest(int[] a) {
         int leftSum = a[0];
         int rightSum = 0;
-        ;
         for (int i = 0; i < a.length; i++)//notice we start from 2nd as 1st value is set
             rightSum += a[i];//each sum is sum of previous sum plus current value
 
