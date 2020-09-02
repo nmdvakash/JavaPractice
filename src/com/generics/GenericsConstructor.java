@@ -4,7 +4,7 @@ import java.lang.reflect.GenericArrayType;
 
 public class GenericsConstructor<T> {
 
-    
+
     // Constructors
     public <T> GenericsConstructor(T t) {
         System.out.println("value --- :: " + t);

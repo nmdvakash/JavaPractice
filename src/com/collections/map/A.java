@@ -17,7 +17,7 @@ class B extends A {
         System.out.println("B");
     }
 
-    public void test(){
+    public void test() {
         System.out.println("B:test");
     }
 
