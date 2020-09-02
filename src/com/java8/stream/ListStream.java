@@ -3,6 +3,7 @@ package com.java8.stream;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Random;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -49,5 +50,11 @@ public class ListStream {
         list = list.stream().distinct().peek(System.out::println).collect(Collectors.toList());
         System.out.println("out ----- :: "+list);
 
+        //Square list of number
+        numberList.stream().map(i -> i*i).forEach(System.out::println);
+
+
+        Random randomList = new Random();
+        randomList.ints().limit(15).forEach(System.out::println);
     }
 }
