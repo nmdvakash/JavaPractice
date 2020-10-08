@@ -16,5 +16,12 @@ public class HashMapKeys {
 		map.put("e", "b");
 		map.put("g", "b");
 		map.put("h", "b");
+
+		//we can add null key value any time this will not give you any runtime or compile time error
+		map.put(null, "value");
+		map.put(null, "value1");
+
+		System.out.println("value -------- :: "+map.get(null));
+
 	}
 }
