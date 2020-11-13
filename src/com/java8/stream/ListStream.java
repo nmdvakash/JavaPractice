@@ -1,9 +1,6 @@
 package com.java8.stream;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -56,5 +53,9 @@ public class ListStream {
 
         Random randomList = new Random();
         randomList.ints().limit(15).forEach(System.out::println);
+
+        List<String> listOfString = Arrays.asList("a", "aa", "bbb","ccc", "akash");
+        String value = listOfString.stream().max(Comparator.comparingInt(String::length)).get();
+        System.out.println("print Value ------- :: "+value);
     }
 }
