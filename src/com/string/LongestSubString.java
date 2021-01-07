@@ -5,6 +5,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
+/**
+ * find the longest non repeatable char sub string
+ * I/P : thelongestsubstring
+ * O/P : [u, b, s, t, r, i, n, g]
+ */
 public class LongestSubString {
 
     public static void main(String[] args) {
