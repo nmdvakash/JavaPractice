@@ -11,19 +11,19 @@ public class ListToMap {
 
     public static void main(String[] args) {
 
-        List<Employee> employeeList = new ArrayList<>();
-        employeeList.add(new Employee(1, "A"));
-        employeeList.add(new Employee(2, "A"));
-        employeeList.add(new Employee(3, "B"));
-        employeeList.add(new Employee(4, "B"));
-        employeeList.add(new Employee(5, "C"));
-        employeeList.add(new Employee(6, "D"));
+//        List<Employee> employeeList = new ArrayList<>();
+//        employeeList.add(new Employee(1, "A"));
+//        employeeList.add(new Employee(2, "A"));
+//        employeeList.add(new Employee(3, "B"));
+//        employeeList.add(new Employee(4, "B"));
+//        employeeList.add(new Employee(5, "C"));
+//        employeeList.add(new Employee(6, "D"));
 
-        Map<String, List<Employee>> listToMap = employeeList.stream().collect(Collectors.groupingBy(Employee::getName));
-        listToMap.entrySet().forEach(System.out::println);
-
-        Map<Integer, Employee> map = employeeList.stream().collect(Collectors.toMap(Employee::getId, Function.identity()));
-        map.entrySet().forEach(System.out::println);
+//        Map<String, List<Employee>> listToMap = employeeList.stream().collect(Collectors.groupingBy(Employee::getName));
+//        listToMap.entrySet().forEach(System.out::println);
+//
+//        Map<Integer, Employee> map = employeeList.stream().collect(Collectors.toMap(Employee::getId, Function.identity()));
+//        map.entrySet().forEach(System.out::println);
 
 
 
@@ -32,7 +32,6 @@ public class ListToMap {
     static class Employee {
         private int id;
         private String name;
-
         Employee(int id, String name) {
             this.name = name;
             this.id = id;

@@ -7,12 +7,26 @@ import java.util.stream.IntStream;
 public class ListStream {
 
     public static void main(String[] args) {
+    	
+    	
+//    	byte b = 6;
+//    	b += 8;
+//    	System.out.println(b);
+//    	b += 7;
+//    	b = b + 7; //Compile time error
+//    	System.out.println(b);
+//    	
 
+          
+    	
         int min = 0;
         int max = 1_0;
 
         //will create list of Integer number Output 0 to 9
         List<Integer> numberList = IntStream.range(min, max).boxed().collect(Collectors.toList());
+
+        System.out.println(numberList.stream().allMatch(obj -> obj == 9));// o/p false
+        System.out.println(numberList.stream().filter(obj -> obj == 9 ||obj == 8).count() );
         numberList.stream().forEach(System.out::println);
 
         //Sum of 1 to 100 number with stream will print 5050
@@ -24,7 +38,7 @@ public class ListStream {
         numberList = IntStream.rangeClosed(min, max).boxed().collect(Collectors.toList());
         numberList.stream().forEach(System.out::println);
 
-        sum = numberList.stream().reduce(Integer::sum).get();
+        sum = numberList.stream().reduce(Integer::sum).orElse(0);
         int mapToIntSum = numberList.stream().mapToInt(Integer::intValue).sum();
         System.out.println(" sum of reduce ------ :: " + sum);
         System.out.println(" mapToIntSum ------ :: " + mapToIntSum);

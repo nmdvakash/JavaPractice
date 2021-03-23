@@ -5,20 +5,23 @@ public class MyThread extends Thread {
     @Override
     public void run() {
 
-        for (int i = 0; i < 1000; i++) {
-            System.out.print("" + i);
+        for (int i = 0; i < 250; i++) {
+            System.out.print(" " + i);
         }
         System.out.println();
     }
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args)  {
 
         MyThread myThread = new MyThread();
         myThread.setName("test_Thread");
         System.out.println("get name of thread ::  " + myThread.getName());
         myThread.start();
-        myThread.sleep(5000);
-        myThread.setName("test_Thread_two");
+        //If we execute the same thread then it will throw the IllegalThreadStateException
+        myThread.start();
+
+//        myThread.sleep(5000);
+//        myThread.setName("test_Thread_two");
 
         Thread t = Thread.currentThread();
 
@@ -27,11 +30,11 @@ public class MyThread extends Thread {
 //		System.out.println("get thread name :: " + myThread.getName());
 
 
-        Thread t1 = new Thread();
-
-        t1.setPriority(12);    //This statement throws IllegalArgumentException at run time
-
-        t1.start();
+//        Thread t1 = new Thread();
+//
+//        t1.setPriority(12);    //This statement throws IllegalArgumentException at run time
+//
+//        t1.start();
 
     }
 }

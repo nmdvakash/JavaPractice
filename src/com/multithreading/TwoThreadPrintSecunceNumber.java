@@ -11,7 +11,7 @@ public class TwoThreadPrintSecunceNumber {
 	private Object lock = new Object();
 	private volatile boolean isOdd = false;
 
-	public void generateEvenNumbers(int number) throws InterruptedException {
+	public synchronized void generateEvenNumbers(int number) throws InterruptedException {
 
 		synchronized (lock) {
 			while (isOdd == false) {
@@ -23,7 +23,7 @@ public class TwoThreadPrintSecunceNumber {
 		}
 	}
 
-	public void generateOddNumbers(int number) throws InterruptedException {
+	public synchronized void generateOddNumbers(int number) throws InterruptedException {
 
 		synchronized (lock) {
 			while (isOdd == true) {

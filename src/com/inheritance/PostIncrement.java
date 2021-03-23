@@ -1,8 +1,6 @@
 package com.inheritance;
 //
 
-import com.interfaces.InterfaceMainClass;
-
 //public class PostIncrement {
 //
 //	public static void main(String[] args) {
